@@ -15,5 +15,5 @@
     <color name="pill_selected_bg">#E07A10</color>
     <color name="pill_text">#F5EBE6</color>
     <color name="pill_selected_text">#FFFFFF</color>
-    <color name="bg_scrim_overlay">#D916110D</color>
+    <color name="bg_scrim_overlay">#00000000</color>
 </resources>

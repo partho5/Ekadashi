@@ -52,15 +52,15 @@ object L10n {
         parana: Parana?,
         targetZone: ZoneId,
         locale: Locale
-    ): String {
+    ): String? {
         if (parana == null || (parana.start == null && parana.end == null)) {
-            return context.getString(R.string.no_parana)
+            return null
         }
 
         val startTime = parana.startIn(targetZone)
         if (startTime == null) {
             // End-only parana: "within <time>"; "morning" wording only when the local time is morning.
-            val endTime = parana.endIn(targetZone) ?: return context.getString(R.string.no_parana)
+            val endTime = parana.endIn(targetZone) ?: return null
             return if (endTime.hour in 4..11) {
                 context.getString(R.string.parana_before_morning_fmt, formatTime(endTime, locale, "h:mm"))
             } else {

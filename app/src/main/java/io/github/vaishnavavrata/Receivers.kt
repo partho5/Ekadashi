@@ -79,7 +79,7 @@ class AlarmReceiver : BroadcastReceiver() {
         )
 
         val builder = Notification.Builder(context, Scheduler.CHANNEL_ID)
-            .setSmallIcon(R.drawable.ic_launcher)
+            .setSmallIcon(R.drawable.ic_stat_vrata)
             .setContentTitle(vrataName)
             .setContentText(contentText)
             .setAutoCancel(true)

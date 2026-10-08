@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Vaishnava Vrata</string>
+    <string name="app_name">Ekadashi</string>
     <string name="app_subtitle">Never miss an Ekadashi or Parana</string>
     <string name="country_title">Country</string>
     <string name="country_bd">বাংলাদেশ</string>
@@ -28,7 +28,6 @@
     <string name="parana_after_fmt">Parana: %1$s after %2$s</string>
     <string name="parana_before_morning_fmt">Parana in the morning, within %1$s</string>
     <string name="parana_before_fmt">Parana: %1$s, within %2$s</string>
-    <string name="no_parana">No parana fast-break window</string>
     <string name="upcoming_title">Upcoming Vratas</string>
     <string name="notif_banner_text">Notifications disabled. Tap to enable in settings.</string>
     <string name="notif_row_text">Notifications are off. Tap to turn them on.</string>

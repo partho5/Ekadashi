@@ -4,5 +4,8 @@
          one is picked at random on each app launch. -->
     <array name="backgrounds">
         <item>@drawable/panchatatva</item>
+        <item>@drawable/banke_bihari</item>
+        <item>@drawable/damodar</item>
+        <item>@drawable/shoro_goswami</item>
     </array>
 </resources>

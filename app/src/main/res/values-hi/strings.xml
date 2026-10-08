@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">वैष्णव व्रत</string>
+    <string name="app_name">Ekadashi</string>
     <string name="app_subtitle">एकादशी और पारण कभी न चूकें</string>
     <string name="country_title">देश</string>
     <string name="country_bd">বাংলাদেশ</string>
@@ -28,7 +28,6 @@
     <string name="parana_after_fmt">पारण: %1$s %2$s के बाद</string>
     <string name="parana_before_morning_fmt">पारण प्रातः %1$s के भीतर</string>
     <string name="parana_before_fmt">पारण: %1$s %2$s के भीतर</string>
-    <string name="no_parana">पारण का समय नहीं है</string>
     <string name="upcoming_title">आगामी व्रत</string>
     <string name="notif_banner_text">सूचनाएं अक्षम हैं। सेटिंग्स में सक्षम करने के लिए टैप करें।</string>
     <string name="notif_row_text">सूचनाएँ बंद हैं। चालू करने के लिए टैप करें।</string>
