@@ -410,6 +410,7 @@ class MainActivity : Activity() {
         val heroDate = findViewById<TextView>(R.id.hero_vrata_date)
         val heroParanaText = findViewById<TextView>(R.id.hero_parana_text)
         val heroParanaContainer = findViewById<View>(R.id.hero_parana_container)
+        val heroParanaWrapper = findViewById<View>(R.id.hero_parana_wrapper)
         val heroNote = findViewById<TextView>(R.id.hero_note)
 
         val daysDiff = ChronoUnit.DAYS.between(today, vrata.date)
@@ -434,7 +435,7 @@ class MainActivity : Activity() {
         heroDate?.text = L10n.formatDate(vrata.date, locale, "EEEE, d MMMM yyyy")
         val paranaText = L10n.formatParanaWindow(this, vrata.parana, targetZone, locale)
         heroParanaText?.text = paranaText
-        heroParanaContainer?.visibility = if (paranaText == null) View.GONE else View.VISIBLE
+        heroParanaWrapper?.visibility = if (paranaText == null) View.GONE else View.VISIBLE
         heroNote?.text = vrata.note
         heroNote?.visibility = if (vrata.note.isNullOrBlank()) View.GONE else View.VISIBLE
 

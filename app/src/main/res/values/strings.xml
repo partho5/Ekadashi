@@ -24,6 +24,7 @@
     <string name="hero_in_days">in %1$d days</string>
     <string name="hero_days_ago">%1$d days ago</string>
     <string name="card_counter_fmt">%1$d of %2$d</string>
+    <string name="parana_label">Next day</string>
     <string name="parana_window_fmt">Parana: %1$s %2$s – %3$s</string>
     <string name="parana_after_fmt">Parana: %1$s after %2$s</string>
     <string name="parana_before_morning_fmt">Parana in the morning, within %1$s</string>

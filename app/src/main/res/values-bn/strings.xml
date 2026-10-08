@@ -24,6 +24,7 @@
     <string name="hero_in_days">%1$d দিন পর</string>
     <string name="hero_days_ago">%1$d দিন পূর্বে</string>
     <string name="card_counter_fmt">%1$d / %2$d</string>
+    <string name="parana_label">পরদিন</string>
     <string name="parana_window_fmt">পারণ: %1$s %2$s – %3$s</string>
     <string name="parana_after_fmt">পারণ: %1$s %2$s এর পর</string>
     <string name="parana_before_morning_fmt">পারণ সকাল %1$s এরমধ্যে</string>

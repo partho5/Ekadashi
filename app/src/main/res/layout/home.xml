@@ -153,26 +153,45 @@
                     android:textColor="@color/text_secondary"
                     android:textSize="15sp" />
 
-                <!-- Parana Time Pill Container -->
-                <LinearLayout
-                    android:id="@+id/hero_parana_container"
+                <!-- Parana Time Pill Container with border label -->
+                <FrameLayout
+                    android:id="@+id/hero_parana_wrapper"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/pill_bg"
-                    android:orientation="horizontal"
-                    android:paddingHorizontal="14dp"
-                    android:paddingVertical="12dp">
+                    android:layout_marginTop="12dp">
 
-                    <TextView
-                        android:id="@+id/hero_parana_text"
+                    <LinearLayout
+                        android:id="@+id/hero_parana_container"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:textColor="@color/text_primary"
-                        android:textSize="13sp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/pill_bg"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="14dp"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:id="@+id/hero_parana_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@color/text_primary"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/hero_parana_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center_horizontal"
+                        android:background="@color/card_selected_bg"
+                        android:paddingHorizontal="8dp"
+                        android:text="@string/parana_label"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="11sp"
                         android:textStyle="bold" />
-                </LinearLayout>
+                </FrameLayout>
 
                 <TextView
                     android:id="@+id/hero_note"
