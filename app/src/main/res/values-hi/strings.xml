@@ -62,4 +62,5 @@
     <string name="notif_parana_range">कल पारण %1$s–%2$s</string>
     <string name="notif_parana_after">कल पारण %1$s के बाद</string>
     <string name="notif_parana_before">कल पारण %1$s के भीतर</string>
+    <string name="no_data_available">कोई डेटा उपलब्ध नहीं है। इंटरनेट चालू करें और ऐप दोबारा खोलें।</string>
 </resources>

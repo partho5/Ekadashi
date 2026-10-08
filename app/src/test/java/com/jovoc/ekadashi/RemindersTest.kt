@@ -1,4 +1,4 @@
-package io.github.vaishnavavrata
+package com.jovoc.ekadashi
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

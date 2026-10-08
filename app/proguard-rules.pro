@@ -1,4 +1,2 @@
-# ProGuard rules for Vaishnava Vrata
-
-# Keep application classes and models
--keep class io.github.vaishnavavrata.** { *; }
+# R8 rules: manifest components and resources are kept automatically by AGP.
+# App code uses org.json by hand (no reflection), so no blanket keep is needed.

@@ -1,4 +1,4 @@
-package io.github.vaishnavavrata
+package com.jovoc.ekadashi
 
 import java.time.LocalDate
 import java.time.LocalTime

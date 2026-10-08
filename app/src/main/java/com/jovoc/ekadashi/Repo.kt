@@ -1,4 +1,4 @@
-package io.github.vaishnavavrata
+package com.jovoc.ekadashi
 
 import android.content.Context
 import java.io.File
@@ -6,7 +6,7 @@ import java.net.HttpURLConnection
 import java.net.URL
 
 object Repo {
-    const val DATA_URL = "https://raw.githubusercontent.com/OWNER/REPO/main/data/vratas.json"
+    const val DATA_URL = "https://raw.githubusercontent.com/partho5/Ekadashi/refs/heads/main/data/vratas.json"
     const val FILE_NAME = "vratas.json"
 
     fun load(context: Context): List<Vrata> {
@@ -44,38 +44,25 @@ object Repo {
             conn.requestMethod = "GET"
             conn.useCaches = false
 
-            val currentETag = Config.getETag(context)
-            if (!currentETag.isNullOrBlank()) {
-                conn.setRequestProperty("If-None-Match", currentETag)
-            }
-
-            val responseCode = conn.responseCode
-            if (responseCode == HttpURLConnection.HTTP_NOT_MODIFIED) {
+            if (conn.responseCode != HttpURLConnection.HTTP_OK) {
                 false
-            } else if (responseCode == HttpURLConnection.HTTP_OK) {
+            } else {
                 val jsonContent = conn.inputStream.bufferedReader().use { it.readText() }
-                val newVratas = parseVratasJson(jsonContent)
-                if (newVratas.isNotEmpty()) {
-                    val tmpFile = File(context.filesDir, "$FILE_NAME.tmp")
+                if (parseVratasJson(jsonContent).isEmpty()) {
+                    false
+                } else {
                     val cacheFile = File(context.filesDir, FILE_NAME)
-                    tmpFile.writeText(jsonContent)
-                    if (tmpFile.exists()) {
-                        if (cacheFile.exists()) {
-                            cacheFile.delete()
-                        }
+                    val local = if (cacheFile.exists()) cacheFile.readText() else null
+                    if (local == jsonContent) {
+                        false
+                    } else {
+                        // Remote differs from local copy: overwrite, no merge.
+                        val tmpFile = File(context.filesDir, "$FILE_NAME.tmp")
+                        tmpFile.writeText(jsonContent)
+                        if (cacheFile.exists()) cacheFile.delete()
                         tmpFile.renameTo(cacheFile)
                     }
-
-                    val newETag = conn.getHeaderField("ETag") ?: conn.getHeaderField("etag")
-                    if (!newETag.isNullOrBlank()) {
-                        Config.setETag(context, newETag)
-                    }
-                    true
-                } else {
-                    false
                 }
-            } else {
-                false
             }
         } catch (e: Exception) {
             false

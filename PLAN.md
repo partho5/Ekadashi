@@ -91,7 +91,7 @@ GitHub JSON → Data Parser → Vrata Model → Timezone Conversion → Localize
 | `type` the UI doesn't know yet | Fall back to a title-cased id (`shiva_ratri` → "Shiva Ratri"), so a new type needs no app update. |
 | Android alarm limit (~500 per app) | Schedule a rolling **60-day** window and refresh it daily. |
 | Notification permission (Android 13+) | Ask once, 3 seconds after the home screen first appears. If it is not granted, the home screen shows a banner and the settings screen shows a row; tapping either asks again, or opens the system notification settings once Android stops showing the dialog. |
-| GitHub repo URL / package name | **Placeholders**: `OWNER/REPO` and `io.github.vaishnavavrata`. They live in one constant each and will be replaced when the user provides them. |
+| GitHub repo URL / package name | **Placeholders**: `OWNER/REPO` and `com.jovoc.ekadashi`. They live in one constant each and will be replaced when the user provides them. |
 
 ---
 
@@ -127,7 +127,7 @@ settings.gradle.kts, build.gradle.kts, gradle.properties, gradlew, gradle/wrappe
 app/build.gradle.kts
 app/proguard-rules.pro
 app/src/main/AndroidManifest.xml
-app/src/main/java/io/github/vaishnavavrata/
+app/src/main/java/com/jovoc/ekadashi/
   Vrata.kt        model + parser + IST→zone conversion
   Config.kt       Country enum, SharedPreferences config, device inference
   Repo.kt         cache / asset / GitHub fetch with ETag
@@ -334,7 +334,7 @@ On Continue:
 
 ## 11. Open items (need input from the maintainer)
 - [ ] GitHub `OWNER/REPO` for the raw data URL.
-- [ ] Final application id / package name (placeholder `io.github.vaishnavavrata`).
+- [ ] Final application id / package name (placeholder `com.jovoc.ekadashi`).
 - [ ] Real `data/vratas.json` data.
 - [ ] Release keystore.
 - [ ] License for the open-source repo (e.g. MIT / Apache-2.0 / GPL-3.0).
@@ -346,6 +346,6 @@ On Continue:
 Created before the "plan only" instruction, and kept as requested:
 - `settings.gradle.kts`, `build.gradle.kts` (AGP 8.11.0, Kotlin 2.2.10 plugins), `gradle.properties`, `.gitignore`, `local.properties`
 - the Gradle 8.14.3 wrapper (`gradlew`, `gradlew.bat`, `gradle/wrapper/*`)
-- empty directories: `app/src/main/{java/io/github/vaishnavavrata,res/*}`, `app/src/test/...`, `data/`, `docs/`
+- empty directories: `app/src/main/{java/com/jovoc/ekadashi,res/*}`, `app/src/test/...`, `data/`, `docs/`
 
 There is no app module build file, no source code and no data file yet. Implementation starts only after explicit approval.

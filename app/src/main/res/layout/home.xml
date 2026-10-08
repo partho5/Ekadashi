@@ -84,6 +84,20 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
+            <!-- Shown when no vrata data is available -->
+            <TextView
+                android:id="@+id/tv_empty_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/card_bg"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/no_data_available"
+                android:textColor="@color/saffron_primary"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
             <!-- Main Vrata Card -->
             <LinearLayout
                 android:id="@+id/hero_card"

@@ -1,4 +1,4 @@
-package io.github.vaishnavavrata
+package com.jovoc.ekadashi
 
 import android.Manifest
 import android.app.Activity
@@ -388,6 +388,8 @@ class MainActivity : Activity() {
         val heroCard = findViewById<View>(R.id.hero_card)
         val btnPrev = findViewById<View>(R.id.btn_prev)
         val btnNext = findViewById<View>(R.id.btn_next)
+        val emptyState = findViewById<View>(R.id.tv_empty_state)
+        emptyState?.visibility = if (allVratas.isEmpty()) View.VISIBLE else View.GONE
 
         if (allVratas.isEmpty() || currentIndex < 0 || currentIndex >= allVratas.size) {
             heroCard?.visibility = View.GONE

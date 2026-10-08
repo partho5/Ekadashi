@@ -1,4 +1,4 @@
-package io.github.vaishnavavrata
+package com.jovoc.ekadashi
 
 import android.app.AlarmManager
 import android.app.NotificationChannel

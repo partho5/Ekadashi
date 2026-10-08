@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "io.github.vaishnavavrata"
+    namespace = "com.jovoc.ekadashi"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "io.github.vaishnavavrata"
+        applicationId = "com.jovoc.ekadashi"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

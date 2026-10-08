@@ -1,4 +1,4 @@
-package io.github.vaishnavavrata
+package com.jovoc.ekadashi
 
 import org.json.JSONObject
 import java.time.LocalDate
