@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <!-- Fullscreen background (chosen from @array/backgrounds in code) -->
-    <ImageView
-        android:id="@+id/bg_image"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:importantForAccessibility="no"
-        android:scaleType="centerCrop" />
-
-    <!-- Soft Overlay Scrim for Text & Card Readability -->
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/bg_scrim_overlay" />
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
     <ScrollView
         android:id="@+id/setup_root"
