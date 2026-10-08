@@ -24,6 +24,12 @@ object L10n {
         else -> Locale.ENGLISH
     }
 
+    /** Name from the vrata's own data (JSON) for [langCode], then English, then bundled strings. */
+    fun getVrataName(context: Context, vrata: Vrata, langCode: String): String =
+        vrata.names[langCode.lowercase(Locale.ROOT)]
+            ?: vrata.names["en"]
+            ?: getVrataName(context, vrata.type)
+
     fun getVrataName(context: Context, type: String): String {
         val resId = context.resources.getIdentifier("vrata_$type", "string", context.packageName)
         return if (resId != 0) {

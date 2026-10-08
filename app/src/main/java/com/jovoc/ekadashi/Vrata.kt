@@ -29,7 +29,8 @@ data class Vrata(
     val date: LocalDate,
     val parana: Parana?,
     val category: String = CATEGORY_OTHER,
-    val note: String? = null
+    val note: String? = null,
+    val names: Map<String, String> = emptyMap()
 ) {
     val isEkadashi: Boolean get() = category == CATEGORY_EKADASHI
 }
@@ -95,7 +96,14 @@ fun parseVratasJson(jsonString: String): List<Vrata> {
         val category = if (obj.optString("category") == CATEGORY_EKADASHI) CATEGORY_EKADASHI else CATEGORY_OTHER
         val note = if (obj.isNull("note")) null else obj.optString("note").takeIf { it.isNotBlank() }
 
-        result.add(Vrata(type = type, date = date, parana = parana, category = category, note = note))
+        val names = mutableMapOf<String, String>()
+        obj.optJSONObject("names")?.let { namesObj ->
+            for (lang in namesObj.keys()) {
+                namesObj.optString(lang).takeIf { it.isNotBlank() }?.let { names[lang] = it }
+            }
+        }
+
+        result.add(Vrata(type = type, date = date, parana = parana, category = category, note = note, names = names))
     }
 
     return result

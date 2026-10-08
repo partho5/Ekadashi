@@ -179,4 +179,17 @@ class ParserTest {
         assertEquals(false, list[1].isEkadashi)
         assertEquals(null, list[1].note)
     }
+
+    @Test
+    fun testNamesParsing() {
+        val json = """
+        { "vratas": [
+          { "type": "a", "date": "2027-03-20", "names": { "en": "A", "bn": "এ", "hi": "" } },
+          { "type": "b", "date": "2027-03-22" }
+        ] }
+        """.trimIndent()
+        val list = parseVratasJson(json)
+        assertEquals(mapOf("en" to "A", "bn" to "এ"), list[0].names)
+        assertEquals(emptyMap<String, String>(), list[1].names)
+    }
 }

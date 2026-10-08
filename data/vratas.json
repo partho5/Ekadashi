@@ -2,6 +2,7 @@
   "vratas": [
     {
       "type": "papankusha_ekadashi",
+      "names": {"en": "Sri Pashankusha (Papankusha) Ekadashi", "bn": "শ্রী পাশাঙ্কুশা (পাপাঙ্কুশা) একাদশী", "hi": "श्री पाशांकुशा (पापांकुशा) एकादशी"},
       "category": "ekadashi",
       "date": "2026-10-22",
       "parana": { "date": "2026-10-23", "start": null, "end": "09:28" },
@@ -9,6 +10,7 @@
     },
     {
       "type": "rama_ekadashi",
+      "names": {"en": "Sri Rama Ekadashi", "bn": "শ্রী রমা একাদশী", "hi": "श्री रमा एकादशी"},
       "category": "ekadashi",
       "date": "2026-11-05",
       "parana": { "date": "2026-11-06", "start": null, "end": "09:30" },
@@ -16,6 +18,7 @@
     },
     {
       "type": "utthana_ekadashi",
+      "names": {"en": "Sri Utthana Ekadashi", "bn": "শ্রী উত্থান একাদশী", "hi": "श्री उत्थान एकादशी"},
       "category": "ekadashi",
       "date": "2026-11-21",
       "parana": { "date": "2026-11-22", "start": null, "end": "09:30" },
@@ -23,6 +26,7 @@
     },
     {
       "type": "utpanna_ekadashi",
+      "names": {"en": "Sri Utpanna Ekadashi", "bn": "শ্রী উৎপন্না একাদশী", "hi": "श्री उत्पन्ना एकादशी"},
       "category": "ekadashi",
       "date": "2026-12-04",
       "parana": { "date": "2026-12-05", "start": null, "end": "09:41" },
@@ -30,6 +34,7 @@
     },
     {
       "type": "mokshada_ekadashi",
+      "names": {"en": "Sri Mokshada Ekadashi", "bn": "শ্রী মোক্ষদা একাদশী", "hi": "श्री मोक्षदा एकादशी"},
       "category": "ekadashi",
       "date": "2026-12-20",
       "parana": { "date": "2026-12-21", "start": null, "end": "09:50" },
@@ -37,6 +42,7 @@
     },
     {
       "type": "saphala_ekadashi",
+      "names": {"en": "Sri Saphala Ekadashi", "bn": "শ্রী সফলা একাদশী", "hi": "श्री सफला एकादशी"},
       "category": "ekadashi",
       "date": "2027-01-03",
       "parana": { "date": "2027-01-04", "start": null, "end": "09:56" },
@@ -44,6 +50,7 @@
     },
     {
       "type": "putrada_ekadashi",
+      "names": {"en": "Sri Putrada Ekadashi (Kurma Dwadashi)", "bn": "শ্রী পুত্রদা একাদশী (কূর্ম দ্বাদশী)", "hi": "श्री पुत्रदा एकादशी (कूर्म द्वादशी)"},
       "category": "ekadashi",
       "date": "2027-01-19",
       "parana": { "date": "2027-01-20", "start": null, "end": "10:00" },
@@ -51,6 +58,7 @@
     },
     {
       "type": "shattila_ekadashi",
+      "names": {"en": "Sri Shattila Ekadashi", "bn": "শ্রী ষট্তিলা একাদশী", "hi": "श्री षट्तिला एकादशी"},
       "category": "ekadashi",
       "date": "2027-02-02",
       "parana": { "date": "2027-02-03", "start": null, "end": "10:02" },
@@ -58,6 +66,7 @@
     },
     {
       "type": "bhaimi_ekadashi",
+      "names": {"en": "Sri Bhaimi (Jaya) Ekadashi", "bn": "শ্রী ভৈমী (জয়া) একাদশী", "hi": "श्री भैमी (जया) एकादशी"},
       "category": "ekadashi",
       "date": "2027-02-17",
       "parana": { "date": "2027-02-18", "start": null, "end": "09:59" },
@@ -65,6 +74,7 @@
     },
     {
       "type": "nityananda_trayodashi",
+      "names": {"en": "Sri Nityananda Trayodashi", "bn": "শ্রী নিত্যানন্দ ত্রয়োদশী", "hi": "श्री नित्यानंद त्रयोदशी"},
       "category": "other",
       "date": "2027-02-19",
       "parana": null,
@@ -72,6 +82,7 @@
     },
     {
       "type": "vijaya_ekadashi",
+      "names": {"en": "Unmilani Maha Dwadashi (Sri Vijaya Ekadashi)", "bn": "উন্মিলনী মহা দ্বাদশী (শ্রী বিজয়া একাদশী)", "hi": "उन्मीलनी महा द्वादशी (श्री विजया एकादशी)"},
       "category": "ekadashi",
       "date": "2027-03-04",
       "parana": { "date": "2027-03-05", "start": null, "end": "09:53" },
@@ -79,6 +90,7 @@
     },
     {
       "type": "shiva_chaturdashi",
+      "names": {"en": "Sri Shiva Chaturdashi", "bn": "শ্রী শিব চতুর্দশী", "hi": "श्री शिव चतुर्दशी"},
       "category": "other",
       "date": "2027-03-07",
       "parana": { "date": "2027-03-08", "start": null, "end": "09:52" },
@@ -86,6 +98,7 @@
     },
     {
       "type": "amalaki_ekadashi",
+      "names": {"en": "Sri Amalaki Ekadashi (Govinda Dwadashi)", "bn": "শ্রী আমলকী একাদশী (গোবিন্দ দ্বাদশী)", "hi": "श्री आमलकी एकादशी (गोविंद द्वादशी)"},
       "category": "ekadashi",
       "date": "2027-03-19",
       "parana": { "date": "2027-03-20", "start": null, "end": "09:50" },
@@ -93,6 +106,7 @@
     },
     {
       "type": "gaura_purnima",
+      "names": {"en": "Sri Sri Gaura Purnima", "bn": "শ্রী শ্রী গৌর পূর্ণিমা", "hi": "श्री श्री गौर पूर्णिमा"},
       "category": "other",
       "date": "2027-03-22",
       "parana": { "date": "2027-03-23", "start": null, "end": "09:54" },
@@ -100,6 +114,7 @@
     },
     {
       "type": "papamochani_ekadashi",
+      "names": {"en": "Sri Papamochani Ekadashi", "bn": "শ্রী পাপমোচনী একাদশী", "hi": "श्री पापमोचनी एकादशी"},
       "category": "ekadashi",
       "date": "2027-04-02",
       "parana": { "date": "2027-04-03", "start": null, "end": "09:38" },

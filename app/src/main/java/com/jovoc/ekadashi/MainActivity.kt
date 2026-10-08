@@ -433,7 +433,7 @@ class MainActivity : Activity() {
             else -> getString(R.string.hero_days_ago, abs(daysDiff.toInt()))
         }
 
-        heroName?.text = L10n.getVrataName(this, vrata.type)
+        heroName?.text = L10n.getVrataName(this, vrata, Config.getLanguage(this))
         heroDate?.text = L10n.formatDate(vrata.date, locale, "EEEE, d MMMM yyyy")
         val paranaText = L10n.formatParanaWindow(this, vrata.parana, targetZone, locale)
         heroParanaText?.text = paranaText

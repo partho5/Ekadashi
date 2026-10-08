@@ -32,7 +32,12 @@ class AlarmReceiver : BroadcastReceiver() {
         val lang = Config.getLanguage(context)
         val wrappedContext = L10n.attachBaseContext(context, lang)
         val locale = L10n.getLocale(lang)
-        val vrataName = L10n.getVrataName(wrappedContext, type)
+        val vrataRecord = Repo.load(context).firstOrNull { it.type == type && it.date == vrataDate }
+        val vrataName = if (vrataRecord != null) {
+            L10n.getVrataName(wrappedContext, vrataRecord, lang)
+        } else {
+            L10n.getVrataName(wrappedContext, type)
+        }
         val targetZone = Config.getTimezone(context)
 
         val contentText: String = when (kind) {
@@ -45,9 +50,7 @@ class AlarmReceiver : BroadcastReceiver() {
                 wrappedContext.getString(R.string.notif_one_day, vrataName, formattedDate)
             }
             ReminderKind.PARANA -> {
-                val vratas = Repo.load(context)
-                val vrata = vratas.firstOrNull { it.type == type && it.date == vrataDate }
-                val parana = vrata?.parana
+                val parana = vrataRecord?.parana
                 val startTime = parana?.startIn(targetZone)
                 val endTime = parana?.endIn(targetZone)
                 if (startTime != null && endTime != null) {

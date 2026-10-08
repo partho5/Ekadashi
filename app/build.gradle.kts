@@ -11,7 +11,7 @@ android {
         applicationId = "com.jovoc.ekadashi"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
+        versionCode = 3
         versionName = "1.0"
 
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
@@ -48,6 +48,14 @@ android {
 
     androidResources {
         localeFilters += listOf("en", "bn", "hi")
+    }
+
+    // The app switches language in-app, so Play must ship all languages
+    // instead of only the device language.
+    bundle {
+        language {
+            enableSplit = false
+        }
     }
 
     packaging {
