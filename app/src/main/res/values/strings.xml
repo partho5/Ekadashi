@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vaishnava Vrata</string>
+    <string name="app_subtitle">Never miss an Ekadashi or Parana</string>
+    <string name="country_title">Country</string>
+    <string name="country_bd">বাংলাদেশ</string>
+    <string name="country_in">भारत</string>
+    <string name="country_other">Other</string>
+    <string name="language_title">Language</string>
+    <string name="lang_en">English</string>
+    <string name="lang_bn">বাংলা</string>
+    <string name="lang_hi">हिन्दी</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_save">Save Settings</string>
+    <string name="btn_previous">Previous</string>
+    <string name="btn_next">Next</string>
+    <string name="tz_auto_fmt">Timezone: %1$s · auto</string>
+    <string name="hero_label_next">Upcoming Vrata</string>
+    <string name="hero_label_past">Past Vrata</string>
+    <string name="hero_label_today">Today\'s Vrata</string>
+    <string name="hero_today">Today</string>
+    <string name="hero_tomorrow">Tomorrow</string>
+    <string name="hero_yesterday">Yesterday</string>
+    <string name="hero_in_days">in %1$d days</string>
+    <string name="hero_days_ago">%1$d days ago</string>
+    <string name="card_counter_fmt">%1$d of %2$d</string>
+    <string name="parana_window_fmt">Parana: %1$s %2$s – %3$s</string>
+    <string name="parana_after_fmt">Parana: %1$s after %2$s</string>
+    <string name="parana_before_morning_fmt">Parana in the morning, within %1$s</string>
+    <string name="parana_before_fmt">Parana: %1$s, within %2$s</string>
+    <string name="no_parana">No parana fast-break window</string>
+    <string name="upcoming_title">Upcoming Vratas</string>
+    <string name="notif_banner_text">Notifications disabled. Tap to enable in settings.</string>
+    <string name="notif_row_text">Notifications are off. Tap to turn them on.</string>
+    <string name="footer_note">Dates follow the Indian (IST) calendar; parana times are converted to your timezone.</string>
+    
+    <!-- Dynamic Vrata Labels -->
+    <string name="vrata_ekadashi">Ekadashi</string>
+    <string name="vrata_janmashtami">Janmashtami</string>
+    <string name="vrata_shiva_ratri">Shiva Ratri</string>
+    <string name="vrata_papankusha_ekadashi">Sri Pashankusha (Papankusha) Ekadashi</string>
+    <string name="vrata_rama_ekadashi">Sri Rama Ekadashi</string>
+    <string name="vrata_utthana_ekadashi">Sri Utthana Ekadashi</string>
+    <string name="vrata_utpanna_ekadashi">Sri Utpanna Ekadashi</string>
+    <string name="vrata_mokshada_ekadashi">Sri Mokshada Ekadashi</string>
+    <string name="vrata_saphala_ekadashi">Sri Saphala Ekadashi</string>
+    <string name="vrata_putrada_ekadashi">Sri Putrada Ekadashi (Kurma Dwadashi)</string>
+    <string name="vrata_shattila_ekadashi">Sri Shattila Ekadashi</string>
+    <string name="vrata_bhaimi_ekadashi">Sri Bhaimi (Jaya) Ekadashi</string>
+    <string name="vrata_nityananda_trayodashi">Sri Nityananda Trayodashi</string>
+    <string name="vrata_vijaya_ekadashi">Unmilani Maha Dwadashi (Sri Vijaya Ekadashi)</string>
+    <string name="vrata_shiva_chaturdashi">Sri Shiva Chaturdashi</string>
+    <string name="vrata_amalaki_ekadashi">Sri Amalaki Ekadashi (Govinda Dwadashi)</string>
+    <string name="vrata_gaura_purnima">Sri Sri Gaura Purnima</string>
+    <string name="vrata_papamochani_ekadashi">Sri Papamochani Ekadashi</string>
+
+    <!-- Notification Messages -->
+    <string name="notif_channel_name">Vrata Reminders</string>
+    <string name="notif_channel_desc">Notifications for upcoming Vaishnava vratas and parana windows</string>
+    <string name="notif_two_day">%1$s in 2 days — %2$s</string>
+    <string name="notif_one_day">%1$s tomorrow — %2$s</string>
+    <string name="notif_parana_range">Parana tomorrow %1$s–%2$s</string>
+    <string name="notif_parana_after">Parana tomorrow after %1$s</string>
+    <string name="notif_parana_before">Parana tomorrow, within %1$s</string>
+</resources>

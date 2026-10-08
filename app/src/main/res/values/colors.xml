@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="saffron_primary">#E07A10</color>
+    <color name="saffron_primary_variant">#C66509</color>
+    <color name="saffron_accent">#FF9800</color>
+    <color name="bg_color">#FFFBF7</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_selected_bg">#FFF3E0</color>
+    <color name="text_primary">#2C1A0E</color>
+    <color name="text_secondary">#7A6252</color>
+    <color name="stroke_color">#E6D5C3</color>
+    <color name="banner_bg">#FFF3E0</color>
+    <color name="banner_text">#C66509</color>
+    <color name="pill_bg">#F2E8DF</color>
+    <color name="pill_selected_bg">#E07A10</color>
+    <color name="pill_text">#2C1A0E</color>
+    <color name="pill_selected_text">#FFFFFF</color>
+    <color name="bg_scrim_overlay">#D9FFFBF7</color>
+</resources>

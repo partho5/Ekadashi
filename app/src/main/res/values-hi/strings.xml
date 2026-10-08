@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">वैष्णव व्रत</string>
+    <string name="app_subtitle">एकादशी और पारण कभी न चूकें</string>
+    <string name="country_title">देश</string>
+    <string name="country_bd">বাংলাদেশ</string>
+    <string name="country_in">भारत</string>
+    <string name="country_other">अन्य</string>
+    <string name="language_title">भाषा</string>
+    <string name="lang_en">English</string>
+    <string name="lang_bn">বাংলা</string>
+    <string name="lang_hi">हिन्दी</string>
+    <string name="btn_continue">आगे बढ़ें</string>
+    <string name="btn_save">सहेजें</string>
+    <string name="btn_previous">पिछला</string>
+    <string name="btn_next">अगला</string>
+    <string name="tz_auto_fmt">समय क्षेत्र: %1$s · स्वचालित</string>
+    <string name="hero_label_next">आगामी व्रत</string>
+    <string name="hero_label_past">पिछला व्रत</string>
+    <string name="hero_label_today">आज का व्रत</string>
+    <string name="hero_today">आज</string>
+    <string name="hero_tomorrow">कल</string>
+    <string name="hero_yesterday">कल (बीता)</string>
+    <string name="hero_in_days">%1$d दिनों में</string>
+    <string name="hero_days_ago">%1$d दिन पहले</string>
+    <string name="card_counter_fmt">%1$d / %2$d</string>
+    <string name="parana_window_fmt">पारण: %1$s %2$s – %3$s</string>
+    <string name="parana_after_fmt">पारण: %1$s %2$s के बाद</string>
+    <string name="parana_before_morning_fmt">पारण प्रातः %1$s के भीतर</string>
+    <string name="parana_before_fmt">पारण: %1$s %2$s के भीतर</string>
+    <string name="no_parana">पारण का समय नहीं है</string>
+    <string name="upcoming_title">आगामी व्रत</string>
+    <string name="notif_banner_text">सूचनाएं अक्षम हैं। सेटिंग्स में सक्षम करने के लिए टैप करें।</string>
+    <string name="notif_row_text">सूचनाएँ बंद हैं। चालू करने के लिए टैप करें।</string>
+    <string name="footer_note">तारीखें भारतीय (IST) कैलेंडर के अनुसार हैं; पारण का समय आपके समय क्षेत्र में परिवर्तित होता है।</string>
+    
+    <!-- Dynamic Vrata Labels -->
+    <string name="vrata_ekadashi">एकादशी</string>
+    <string name="vrata_janmashtami">जन्माष्टमी</string>
+    <string name="vrata_shiva_ratri">शिवरात्रि</string>
+    <string name="vrata_papankusha_ekadashi">श्री पाशांकुशा (पापांकुशा) एकादशी</string>
+    <string name="vrata_rama_ekadashi">श्री रमा एकादशी</string>
+    <string name="vrata_utthana_ekadashi">श्री उत्थान एकादशी</string>
+    <string name="vrata_utpanna_ekadashi">श्री उत्पन्ना एकादशी</string>
+    <string name="vrata_mokshada_ekadashi">श्री मोक्षदा एकादशी</string>
+    <string name="vrata_saphala_ekadashi">श्री सफला एकादशी</string>
+    <string name="vrata_putrada_ekadashi">श्री पुत्रदा एकादशी (कूर्म द्वादशी)</string>
+    <string name="vrata_shattila_ekadashi">श्री षट्तिला एकादशी</string>
+    <string name="vrata_bhaimi_ekadashi">श्री भैमी (जया) एकादशी</string>
+    <string name="vrata_nityananda_trayodashi">श्री नित्यानंद त्रयोदशी</string>
+    <string name="vrata_vijaya_ekadashi">उन्मीलनी महा द्वादशी (श्री विजया एकादशी)</string>
+    <string name="vrata_shiva_chaturdashi">श्री शिव चतुर्दशी</string>
+    <string name="vrata_amalaki_ekadashi">श्री आमलकी एकादशी (गोविंद द्वादशी)</string>
+    <string name="vrata_gaura_purnima">श्री श्री गौर पूर्णिमा</string>
+    <string name="vrata_papamochani_ekadashi">श्री पापमोचनी एकादशी</string>
+
+    <!-- Notification Messages -->
+    <string name="notif_channel_name">व्रत अनुस्मारक</string>
+    <string name="notif_channel_desc">आगामी वैष्णव व्रत और पारण समय के लिए सूचनाएं</string>
+    <string name="notif_two_day">%1$s 2 दिनों में — %2$s</string>
+    <string name="notif_one_day">%1$s कल — %2$s</string>
+    <string name="notif_parana_range">कल पारण %1$s–%2$s</string>
+    <string name="notif_parana_after">कल पारण %1$s के बाद</string>
+    <string name="notif_parana_before">कल पारण %1$s के भीतर</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">বৈষ্ণব ব্রত</string>
+    <string name="app_subtitle">একাদশী ও পারণ মিস করবেন না</string>
+    <string name="country_title">দেশ</string>
+    <string name="country_bd">বাংলাদেশ</string>
+    <string name="country_in">भारत</string>
+    <string name="country_other">অন্যান্য</string>
+    <string name="language_title">ভাষা</string>
+    <string name="lang_en">English</string>
+    <string name="lang_bn">বাংলা</string>
+    <string name="lang_hi">हिन्दी</string>
+    <string name="btn_continue">এগিয়ে যান</string>
+    <string name="btn_save">সংরক্ষণ করুন</string>
+    <string name="btn_previous">পূর্ববর্তী</string>
+    <string name="btn_next">পরবর্তী</string>
+    <string name="tz_auto_fmt">সময় অঞ্চল: %1$s · স্বয়ংসক্রিয়</string>
+    <string name="hero_label_next">আসন্ন ব্রত</string>
+    <string name="hero_label_past">পূর্ববর্তী ব্রত</string>
+    <string name="hero_label_today">আজকের ব্রত</string>
+    <string name="hero_today">আজ</string>
+    <string name="hero_tomorrow">আগামীকাল</string>
+    <string name="hero_yesterday">গতকাল</string>
+    <string name="hero_in_days">%1$d দিন পর</string>
+    <string name="hero_days_ago">%1$d দিন পূর্বে</string>
+    <string name="card_counter_fmt">%1$d / %2$d</string>
+    <string name="parana_window_fmt">পারণ: %1$s %2$s – %3$s</string>
+    <string name="parana_after_fmt">পারণ: %1$s %2$s এর পর</string>
+    <string name="parana_before_morning_fmt">পারণ সকাল %1$s এরমধ্যে</string>
+    <string name="parana_before_fmt">পারণ: %1$s %2$s এরমধ্যে</string>
+    <string name="no_parana">পারণের সময় নেই</string>
+    <string name="upcoming_title">আসন্ন ব্রতসমূহ</string>
+    <string name="notif_banner_text">বিজ্ঞপ্তি নিষ্ক্রিয়। সেটিংসে চালু করতে ট্যাপ করুন।</string>
+    <string name="notif_row_text">বিজ্ঞপ্তি বন্ধ আছে। চালু করতে ট্যাপ করুন।</string>
+    <string name="footer_note">তারিখসমূহ ভারতীয় (IST) ক্যালেন্ডার অনুসরণ করে; পারণের সময় আপনার স্থানীয় সময় অঞ্চলে রূপান্তরিত।</string>
+    
+    <!-- Dynamic Vrata Labels -->
+    <string name="vrata_ekadashi">একাদশী</string>
+    <string name="vrata_janmashtami">জন্মাষ্টমী</string>
+    <string name="vrata_shiva_ratri">শিবরাত্রি</string>
+    <string name="vrata_papankusha_ekadashi">শ্রী পাশাঙ্কুশ (পাপাঙ্কুশা) একাদশী</string>
+    <string name="vrata_rama_ekadashi">শ্রী রমা একাদশী</string>
+    <string name="vrata_utthana_ekadashi">শ্রী উত্থান একাদশী</string>
+    <string name="vrata_utpanna_ekadashi">শ্রী উৎপন্না একাদশী</string>
+    <string name="vrata_mokshada_ekadashi">শ্রী মোক্ষদা একাদশী</string>
+    <string name="vrata_saphala_ekadashi">শ্রী সফলা একাদশী</string>
+    <string name="vrata_putrada_ekadashi">শ্রী পুত্রদা একাদশী (কূর্ম দ্বাদশী)</string>
+    <string name="vrata_shattila_ekadashi">শ্রী ষট্তিলা একাদশী</string>
+    <string name="vrata_bhaimi_ekadashi">শ্রী ভৈমী (জয়া) একাদশী</string>
+    <string name="vrata_nityananda_trayodashi">শ্রী নিত্যানন্দ ত্রয়োদশী</string>
+    <string name="vrata_vijaya_ekadashi">উন্মিলনী মহা দ্বাদশী (শ্রী বিজয়া একাদশী)</string>
+    <string name="vrata_shiva_chaturdashi">শ্রী শিব চতুর্দশী</string>
+    <string name="vrata_amalaki_ekadashi">শ্রী আমলকী একাদশী (গোবিন্দ দ্বাদশী)</string>
+    <string name="vrata_gaura_purnima">শ্রী শ্রী গৌর পূর্ণিমা</string>
+    <string name="vrata_papamochani_ekadashi">শ্রী পাপমোচনী একাদশী</string>
+
+    <!-- Notification Messages -->
+    <string name="notif_channel_name">ব্রত অনুস্মারক</string>
+    <string name="notif_channel_desc">আসন্ন বৈষ্ণব ব্রত ও পারণের সময়ের জন্য বিজ্ঞপ্তি</string>
+    <string name="notif_two_day">%1$s ২ দিন পর — %2$s</string>
+    <string name="notif_one_day">%1$s আগামীকাল — %2$s</string>
+    <string name="notif_parana_range">আগামীকাল পারণ %1$s–%2$s</string>
+    <string name="notif_parana_after">আগামীকাল পারণ %1$s এর পর</string>
+    <string name="notif_parana_before">আগামীকাল পারণ %1$s এরমধ্যে</string>
+</resources>

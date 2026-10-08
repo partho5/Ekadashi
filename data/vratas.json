@@ -1,0 +1,109 @@
+{
+  "vratas": [
+    {
+      "type": "papankusha_ekadashi",
+      "category": "ekadashi",
+      "date": "2026-10-22",
+      "parana": { "date": "2026-10-23", "start": null, "end": "09:28" },
+      "note": null
+    },
+    {
+      "type": "rama_ekadashi",
+      "category": "ekadashi",
+      "date": "2026-11-05",
+      "parana": { "date": "2026-11-06", "start": null, "end": "09:30" },
+      "note": null
+    },
+    {
+      "type": "utthana_ekadashi",
+      "category": "ekadashi",
+      "date": "2026-11-21",
+      "parana": { "date": "2026-11-22", "start": null, "end": "09:30" },
+      "note": null
+    },
+    {
+      "type": "utpanna_ekadashi",
+      "category": "ekadashi",
+      "date": "2026-12-04",
+      "parana": { "date": "2026-12-05", "start": null, "end": "09:41" },
+      "note": null
+    },
+    {
+      "type": "mokshada_ekadashi",
+      "category": "ekadashi",
+      "date": "2026-12-20",
+      "parana": { "date": "2026-12-21", "start": null, "end": "09:50" },
+      "note": null
+    },
+    {
+      "type": "saphala_ekadashi",
+      "category": "ekadashi",
+      "date": "2027-01-03",
+      "parana": { "date": "2027-01-04", "start": null, "end": "09:56" },
+      "note": null
+    },
+    {
+      "type": "putrada_ekadashi",
+      "category": "ekadashi",
+      "date": "2027-01-19",
+      "parana": { "date": "2027-01-20", "start": null, "end": "10:00" },
+      "note": null
+    },
+    {
+      "type": "shattila_ekadashi",
+      "category": "ekadashi",
+      "date": "2027-02-02",
+      "parana": { "date": "2027-02-03", "start": null, "end": "10:02" },
+      "note": null
+    },
+    {
+      "type": "bhaimi_ekadashi",
+      "category": "ekadashi",
+      "date": "2027-02-17",
+      "parana": { "date": "2027-02-18", "start": null, "end": "09:59" },
+      "note": null
+    },
+    {
+      "type": "nityananda_trayodashi",
+      "category": "other",
+      "date": "2027-02-19",
+      "parana": null,
+      "note": null
+    },
+    {
+      "type": "vijaya_ekadashi",
+      "category": "ekadashi",
+      "date": "2027-03-04",
+      "parana": { "date": "2027-03-05", "start": null, "end": "09:53" },
+      "note": null
+    },
+    {
+      "type": "shiva_chaturdashi",
+      "category": "other",
+      "date": "2027-03-07",
+      "parana": { "date": "2027-03-08", "start": null, "end": "09:52" },
+      "note": null
+    },
+    {
+      "type": "amalaki_ekadashi",
+      "category": "ekadashi",
+      "date": "2027-03-19",
+      "parana": { "date": "2027-03-20", "start": null, "end": "09:50" },
+      "note": "বৃন্দাবনে একাদশী ১৮ মার্চ, কিন্তু বঙ্গদেশে ১৯শে মার্চ। কেউ বৃন্দাবনে অবস্থানকালে ১৮ তারিখ একাদশী পালন করলে পারণ হবে ৯টা ৪৬ এর মধ্যে।"
+    },
+    {
+      "type": "gaura_purnima",
+      "category": "other",
+      "date": "2027-03-22",
+      "parana": { "date": "2027-03-23", "start": null, "end": "09:54" },
+      "note": null
+    },
+    {
+      "type": "papamochani_ekadashi",
+      "category": "ekadashi",
+      "date": "2027-04-02",
+      "parana": { "date": "2027-04-03", "start": null, "end": "09:38" },
+      "note": null
+    }
+  ]
+}

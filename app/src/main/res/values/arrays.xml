@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background images. Add a drawable under res/drawable-nodpi and one <item> here;
+         one is picked at random on each app launch. -->
+    <array name="backgrounds">
+        <item>@drawable/panchatatva</item>
+    </array>
+</resources>
