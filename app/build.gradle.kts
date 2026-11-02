@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.jovoc.ekadashi"
-    compileSdk = 36
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.jovoc.ekadashi"
         minSdk = 26
-        targetSdk = 36
+        targetSdk = 35
         versionCode = 3
         versionName = "1.0"
 
@@ -20,6 +20,13 @@ android {
     sourceSets {
         getByName("main") {
             assets.srcDir("../data")
+        }
+    }
+
+    signingConfigs {
+        getByName("debug") {
+            enableV1Signing = true
+            enableV2Signing = true
         }
     }
 

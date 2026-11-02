@@ -1,0 +1,82 @@
+{
+  "pratipada": {
+    "food_en": "Ash Gourd (Kushmanda)",
+    "food_bn": "চালকুমড়া (কুষ্মাণ্ড)",
+    "food_hi": "पेठा (कुष्मांड)"
+  },
+  "dvitiya": {
+    "food_en": "Small Eggplant (Brihati)",
+    "food_bn": "ছোট বেগুন (বৃহতী)",
+    "food_hi": "छोटा बैंगन (बृहती)"
+  },
+  "tritiya": {
+    "food_en": "Pointed Gourd (Patol)",
+    "food_bn": "পটল",
+    "food_hi": "परवल"
+  },
+  "chaturthi": {
+    "food_en": "Radish (Mula)",
+    "food_bn": "মূলা",
+    "food_hi": "मूली"
+  },
+  "panchami": {
+    "food_en": "Wood Apple (Bel)",
+    "food_bn": "বেল",
+    "food_hi": "बेल"
+  },
+  "shashti": {
+    "food_en": "Neem Leaves",
+    "food_bn": "নিম পাতা",
+    "food_hi": "नीम"
+  },
+  "saptami": {
+    "food_en": "Palm Fruit (Tal)",
+    "food_bn": "তাল",
+    "food_hi": "ताड़ का फल"
+  },
+  "ashtami": {
+    "food_en": "Coconut",
+    "food_bn": "নারকেল",
+    "food_hi": "नारियल"
+  },
+  "navami": {
+    "food_en": "Bottle Gourd (Lau)",
+    "food_bn": "লাউ",
+    "food_hi": "लौकी"
+  },
+  "dashami": {
+    "food_en": "Kalambi Greens",
+    "food_bn": "কলমী শাক",
+    "food_hi": "कलमी साग"
+  },
+  "ekadashi": {
+    "food_en": "All Grains & Beans",
+    "food_bn": "সমস্ত শস্য ও ডাল",
+    "food_hi": "सभी प्रकार के अन्न व दालें"
+  },
+  "dvadashi": {
+    "food_en": "Masoor Dal / Pui Greens",
+    "food_bn": "পুঁইশাক ও মসুর ডাল",
+    "food_hi": "मसूर दाल व पोई साग"
+  },
+  "trayodashi": {
+    "food_en": "Eggplant (Begun)",
+    "food_bn": "বেগুন",
+    "food_hi": "बैंगन"
+  },
+  "chaturdashi": {
+    "food_en": "Black Gram (Mashkalai)",
+    "food_bn": "মাষকলাই ডাল",
+    "food_hi": "उड़द दाल"
+  },
+  "purnima": {
+    "food_en": "Non-Veg / Meat / Fish",
+    "food_bn": "আমিষ আহার",
+    "food_hi": "मांसाहार"
+  },
+  "amavasya": {
+    "food_en": "Non-Veg / Meat / Fish",
+    "food_bn": "আমিষ আহার",
+    "food_hi": "मांसाहार"
+  }
+}

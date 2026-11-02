@@ -6,6 +6,6 @@
     android:viewportHeight="24">
     <!-- Equilateral triangle: side 20, height 17.32 -->
     <path
-        android:fillColor="@color/saffron_primary"
+        android:fillColor="#000000"
         android:pathData="M3.34,12 L20.66,2 L20.66,22 Z" />
 </vector>

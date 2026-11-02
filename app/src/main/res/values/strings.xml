@@ -62,5 +62,6 @@
     <string name="notif_parana_range">Parana tomorrow %1$s–%2$s</string>
     <string name="notif_parana_after">Parana tomorrow after %1$s</string>
     <string name="notif_parana_before">Parana tomorrow, within %1$s</string>
+    <string name="forbidden_food_fmt">Forbidden: %1$s</string>
     <string name="no_data_available">No data available. Turn on internet and reopen the app.</string>
 </resources>

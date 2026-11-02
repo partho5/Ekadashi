@@ -17,6 +17,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import java.time.LocalDate
 import java.time.ZoneId
+import java.time.ZonedDateTime
 import java.time.temporal.ChronoUnit
 import kotlin.math.abs
 import kotlin.random.Random
@@ -37,6 +38,7 @@ class MainActivity : Activity() {
     private var isShowingSetup: Boolean = false
 
     private var allVratas: List<Vrata> = emptyList()
+    private var allTithis: List<TithiSpan> = emptyList()
     private var currentIndex: Int = -1
     private var gestureDetector: GestureDetector? = null
     private var bgIndex: Int = -1
@@ -362,6 +364,9 @@ class MainActivity : Activity() {
         val targetZone = Config.getTimezone(this)
         val today = LocalDate.now(targetZone)
 
+        allTithis = TithiHelper.loadTithis(this, targetZone)
+        renderTithiSection()
+
         val vratas = Repo.load(this)
         allVratas = vratas.sortedBy { it.date }
 
@@ -449,6 +454,46 @@ class MainActivity : Activity() {
 
         btnNext?.isEnabled = hasNext
         btnNext?.alpha = if (hasNext) 1.0f else 0.4f
+    }
+
+    private fun renderTithiSection() {
+        val sectionTithi = findViewById<View>(R.id.section_tithi) ?: return
+        val tvDayLabel = findViewById<TextView>(R.id.tv_tithi_day_label)
+        val tvDate = findViewById<TextView>(R.id.tv_tithi_date)
+        val timelineView = findViewById<TithiTimelineView>(R.id.tithi_timeline)
+        val tvForbiddenFood = findViewById<TextView>(R.id.tv_forbidden_food)
+
+        val targetZone = Config.getTimezone(this)
+        val today = LocalDate.now(targetZone)
+        val now = ZonedDateTime.now(targetZone)
+        val lang = Config.getLanguage(this)
+        val locale = L10n.getLocale(lang)
+
+        val schedule = TithiHelper.computeDaySchedule(
+            date = today,
+            allTithis = allTithis,
+            targetZone = targetZone,
+            now = now,
+            lang = lang
+        )
+
+        if (schedule == null || schedule.segments.isEmpty()) {
+            sectionTithi.visibility = View.GONE
+            return
+        }
+
+        sectionTithi.visibility = View.VISIBLE
+        tvDayLabel?.text = getString(R.string.hero_today)
+        tvDate?.text = L10n.formatDate(today, locale, "d MMM, yyyy")
+
+        timelineView?.setSchedule(schedule, lang)
+
+        if (schedule.forbiddenFood.isNotBlank()) {
+            tvForbiddenFood?.text = getString(R.string.forbidden_food_fmt, schedule.forbiddenFood)
+            tvForbiddenFood?.visibility = View.VISIBLE
+        } else {
+            tvForbiddenFood?.visibility = View.GONE
+        }
     }
 
     override fun onRequestPermissionsResult(
